@@ -1,0 +1,25 @@
+﻿input
+Store A
+
+input
+Store B
+
+load A
+Subt B
+
+Skipcond 400
+Jump seguirno
+Jump seguirsi
+
+seguirno, load uno
+ output
+ halt
+
+seguirsi, load cero
+ output
+ halt
+
+A, DEC 0
+B, DEC 0
+cero, DEC 0
+uno, DEC 1
